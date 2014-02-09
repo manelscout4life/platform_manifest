@@ -474,7 +474,7 @@
   <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="github" revision="kk-4.4" />
 
   <!-- CyanogenMod devices -->
-  <project path="device/lge/v500" name="Mahdi-Rom/android_device_lge_v500" remote="github" revision="kk-4.4" />
+  <project path="device/lge/v500" name="manelscout4life/android_device_lge_v500" remote="github" revision="kk-4.4" />
   <project path="device/samsung/jf-common" name="Mahdi-Rom/android_device_samsung_jf-common" remote="github" revision="kk-4.4" />
   <project path="device/samsung/jfltexx" name="Mahdi-Rom/android_device_samsung_jfltexx" remote="github" revision="kk-4.4" />
   <project path="device/samsung/msm8960-common" name="Mahdi-Rom/android_device_samsung_msm8960-common" remote="github" revision="kk-4.4" />
