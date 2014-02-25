@@ -306,7 +306,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="Mahdi-Rom/android_packages_apps_Contacts" remote="github" revision="kk-4.4" />
   <project path="packages/apps/ContactsCommon" name="Mahdi-Rom/android_packages_apps_ContactsCommon" remote="github" revision="kk-4.4" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="Mahdi-Rom/android_packages_apps_DeskClock" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Dialer" name="Mahdi-Rom/android_packages_apps_Dialer" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -463,9 +463,9 @@
   <project path="packages/apps/ScreenRecorder" name="Mahdi-Rom/android_packages_apps_ScreenRecorder" remote="github" revision="kk-4.4" />
   <project path="packages/apps/LockClock" name="Mahdi-Rom/android_packages_apps_LockClock" remote="github" revision="kk-4.4" />
   <project path="packages/apps/PerformanceControl" name="Mahdi-Rom/android_packages_apps_PerformanceControl" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/OmniSwitch" name="Mahdi-Rom/android_packages_apps_OmniSwitch" remote="github" revision="kk-4.4" />
 
   <!-- CyanogenMod H/W suppport -->
-  <project path="hardware/samsung" name="Mahdi-Rom/android_hardware_samsung" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" remote="github" revision="cm-11.0" />
@@ -473,16 +473,7 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="github" revision="kk-4.4" />
 
-  <!-- CyanogenMod devices -->
   <project path="device/lge/v500" name="manelscout4life/android_device_lge_v500" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/jf-common" name="Mahdi-Rom/android_device_samsung_jf-common" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/jfltexx" name="Mahdi-Rom/android_device_samsung_jfltexx" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/msm8960-common" name="Mahdi-Rom/android_device_samsung_msm8960-common" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="Mahdi-Rom/android_device_samsung_qcom-common" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/aries-common" name="Mahdi-Rom/android_device_samsung_aries-common" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/galaxysmtd" name="Mahdi-Rom/android_device_samsung_galaxysmtd" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/galaxys2-common" name="Mahdi-Rom/android_device_samsung_galaxys2-common" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/i9100" name="Mahdi-Rom/android_device_samsung_i9100" remote="github" revision="kk-4.4" />
 
   <!-- Mahdi-Rom vendor -->
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" >
