@@ -243,7 +243,7 @@
   <project path="external/zlib" name="Mahdi-Rom/android_external_zlib" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="Mahdi-Rom/android_frameworks_av" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="frameworks/base" name="Mahdi-Rom/android_frameworks_base" remote="github" revision="kk-4.4" />
+  <project path="frameworks/base" name="Mahdi-Rom/android_frameworks_base" remote="github" revision="kk-aosp-test" />
   <project path="frameworks/compile/libbcc" name="Mahdi-Rom/android_frameworks_compile_libbcc" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="frameworks/compile/mclinker" name="Mahdi-Rom/android_frameworks_compile_mclinker" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -329,7 +329,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="Mahdi-Rom/android_packages_apps_Settings" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Settings" name="Mahdi-Rom/android_packages_apps_Settings" remote="github" revision="kk-test" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="Mahdi-Rom/android_packages_apps_SoundRecorder" remote="github" revision="kk-4.4" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
