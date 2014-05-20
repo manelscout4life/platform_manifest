@@ -84,7 +84,7 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" />
+  <project path="external/chromium_org/third_party/openssl" name="Mahdi-Rom/android_external_chromium_org_third_party_openssl" remote="github" revision="kk-4.4" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" />
@@ -196,7 +196,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
+  <project path="external/openssl" name="Mahdi-Rom/android_external_openssl" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -430,10 +430,9 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <!-- CyanogenMod Power Hal -->
-  <project path="hardware/cm" name="Mahdi-Rom/android_hardware_cm" remote="github" revision="kk-4.4" />
+  <!-- Misc -->
+  <project path="frameworks/opt/cards" name="Mahdi-Rom/android_frameworks_opt_cards" remote="github" revision="kk-4.4" />
 
-  <!-- CyanogenMod Misc -->
   <project path="external/fuse" name="Mahdi-Rom/android_external_fuse" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/libncurses" name="Mahdi-Rom/android_external_libncurses" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/libtar" name="Mahdi-Rom/android_external_libtar" remote="github" revision="kk-4.4" />
@@ -441,6 +440,7 @@
   <project path="external/busybox" name="Mahdi-Rom/android_external_busybox" remote="github" revision="kk-4.4" />
   <project path="external/crda" name="Mahdi-Rom/android_external_crda" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/exfat" name="Mahdi-Rom/android_external_exfat" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/google" name="Mahdi-Rom/android_external_google" remote="github" revision="kk-4.4" />
   <project path="external/kissfft" name="Mahdi-Rom/android_external_kissfft" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/nano" name="Mahdi-Rom/android_external_nano" remote="github" revision="kk-4.4" />
   <project path="external/ntfs-3g" name="Mahdi-Rom/android_external_ntfs-3g" remote="github" revision="kk-4.4" />
@@ -453,25 +453,28 @@
   <project path="external/koush/Superuser" name="Mahdi-Rom/android_external_koush_Superuser" remote="github" revision="kk-4.4" />
   <project path="external/koush/Widgets" name="Mahdi-Rom/android_external_koush_Widgets" remote="github" revision="kk-4.4" />
 
-  <project path="frameworks/opt/cards" name="Mahdi-Rom/android_frameworks_opt_cards" remote="github" revision="kk-4.4" />
-
+  <!-- Apps -->
   <project path="packages/apps/VoicePlus" name="Mahdi-Rom/android_packages_apps_VoicePlus" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Apollo" name="Mahdi-Rom/android_packages_apps_Apollo" remote="github" revision="kk-4.4" />
-  <project path="packages/apps/CMFileManager" name="Mahdi-Rom/android_packages_apps_CMFileManager" remote="github" revision="kk-4.4" />
   <project path="packages/apps/DSPManager" name="Mahdi-Rom/android_packages_apps_DSPManager" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Torch" name="Mahdi-Rom/android_packages_apps_Torch" remote="github" revision="kk-4.4" />
   <project path="packages/apps/ScreenRecorder" name="Mahdi-Rom/android_packages_apps_ScreenRecorder" remote="github" revision="kk-4.4" />
   <project path="packages/apps/LockClock" name="Mahdi-Rom/android_packages_apps_LockClock" remote="github" revision="kk-4.4" />
   <project path="packages/apps/KernelTweaker" name="Mahdi-Rom/android_packages_apps_KernelTweaker" remote="github" revision="kk-4.4" />
   <project path="packages/apps/OmniSwitch" name="Mahdi-Rom/android_packages_apps_OmniSwitch" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/MahdiSetupWizard" name="Mahdi-Rom/android_packages_apps_MahdiSetupWizard" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/MahdiCenter" name="Mahdi-Rom/android_packages_apps_MahdiCenter" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Trebuchet" name="Mahdi-Rom/android_packages_apps_Trebuchet" remote="github" revision="kk-4.4" />
 
-  <!-- CyanogenMod H/W suppport -->
+  <!-- H/W suppport -->
   <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="Mahdi-Rom/android_hardware_qcom_media-caf" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="github" revision="kk-4.4" />
+  <!-- Power Hal -->
+  <project path="hardware/cm" name="Mahdi-Rom/android_hardware_cm" remote="github" revision="kk-4.4" />
 
   <project path="device/lge/v500" name="manelscout4life/android_device_lge_v500" remote="github" revision="kk-4.4" />
 
@@ -479,11 +482,9 @@
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" >
     <copyfile src="build.sh" dest="build.sh" />
   </project>
-  <project path="packages/apps/MahdiCenter" name="Mahdi-Rom/android_packages_apps_MahdiCenter" remote="github" revision="kk-4.4" />
 
   <!-- Theme Manager -->
-  <project path="vendor/tmobile/apps/ThemeChooser" name="Mahdi-Rom/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="kk-4.4" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="Mahdi-Rom/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="kk-4.4" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="Mahdi-Rom/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/ThemeChooser" name="Mahdi-Rom/android_packages_apps_ThemeChooser" remote="github" revision="kk-4.4" />
+  <project path="packages/providers/ThemesProvider" name="Mahdi-Rom/android_packages_providers_ThemesProvider" remote="github" revision="kk-4.4" />
 
 </manifest>
