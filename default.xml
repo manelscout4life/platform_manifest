@@ -44,6 +44,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="Mahdi-Rom/android_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="kk-4.4.3" />
   <project path="device/lge/mako" name="Mahdi-Rom/android_device_lge_mako" groups="device,mako" remote="github" revision="kk-4.4.3" />
+  <project path="device/lge/v500" name="manelscout4life/android_device_lge_v500" groups="device,v500" remote="github" revision="kk-4.4" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -476,8 +477,8 @@
 
   <!-- H/W suppport -->
   <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="github" revision="kk-4.4.3" />
-  <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="github" revision="kk-4.4.3" />
-  <project path="hardware/qcom/media-caf" name="Mahdi-Rom/android_hardware_qcom_media-caf" groups="qcom" remote="github" revision="kk-4.4.3" />
+  <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_display-caf" groups="qcom" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" groups="qcom" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="github" revision="kk-4.4.3" />
   <!-- Power Hal -->
   <project path="hardware/cm" name="Mahdi-Rom/android_hardware_cm" remote="github" revision="kk-4.4.3" />
