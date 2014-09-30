@@ -53,7 +53,7 @@
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
-  <project path="external/apache-http" name="platform/external/apache-http" />
+  <project path="external/apache-http" name="Mahdi-Rom/android_external_apache-http" remote="github" revision="kk-4.4.3" />
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
@@ -321,7 +321,7 @@
   <project path="packages/apps/Mms" name="Mahdi-Rom/android_packages_apps_Mms" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="Mahdi-Rom/android_packages_apps_Nfc" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="Mahdi-Rom/android_packages_apps_PackageInstaller" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
@@ -446,6 +446,7 @@
   <project path="external/crda" name="Mahdi-Rom/android_external_crda" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/cyanogen/cmhomeapi" name="Mahdi-Rom/android_external_cyanogen_cmhomeapi" remote="github" revision="kk-4.4.3" />
   <project path="external/exfat" name="Mahdi-Rom/android_external_exfat" groups="pdk" remote="github" revision="kk-4.4.3" />
+  <project path="external/f2fs-tools" name="Mahdi-Rom/android_external_f2fs-tools" remote="github" revision="kk-4.4.3" />
   <project path="external/google" name="Mahdi-Rom/android_external_google" remote="github" revision="kk-4.4.3" />
   <project path="external/kissfft" name="Mahdi-Rom/android_external_kissfft" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/nano" name="Mahdi-Rom/android_external_nano" remote="github" revision="kk-4.4.3" />
@@ -460,7 +461,6 @@
   <project path="external/koush/Widgets" name="Mahdi-Rom/android_external_koush_Widgets" remote="github" revision="kk-4.4.3" />
 
   <!-- Apps -->
-  <project path="packages/apps/VoicePlus" name="Mahdi-Rom/android_packages_apps_VoicePlus" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Apollo" name="Mahdi-Rom/android_packages_apps_Apollo" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/DSPManager" name="Mahdi-Rom/android_packages_apps_DSPManager" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Torch" name="Mahdi-Rom/android_packages_apps_Torch" remote="github" revision="kk-4.4.3" />
